@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Sweatshirt 'Never Stop Learning.",
+      "slug": "sweatshirt-never-stop-learning",
+      "price": 129,
+      "image": "/moletom-never-stop-learning.png",
+      "description": "Sweatshirt made with 88% cotton and 12% polyester.",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "AI Side Sweatshirt.",
+      "slug": "ai-side-sweatshirt",
+      "price": 99,
+      "image": "/moletom-ai-side.png",
+      "description": "Sweatshirt made with 88% cotton and 12% polyester.",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "DoWhile 2022 T-shirt",
+      "slug": "dowhile-2022-t-shirt",
+      "price": 69,
+      "image": "/camiseta-dowhile-2022.png",
+      "description": "T-shirt made with 100% cotton.",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Java 2023 Sweatshirt.",
+      "slug": "java-sweatshirt-2023",
+      "price": 99,
+      "image": "/moletom-java.png",
+      "description": "Sweatshirt made with 88% cotton and 12% polyester.",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "AI Sweatshirt for Devs.",
+      "slug": "ai-sweatshirt-devs",
+      "price": 99,
+      "image": "/moletom-ia-p-devs.png",
+      "description": "Sweatshirt made with 88% cotton and 12% polyester.",
+      "featured": false
+    }
+  ]
+}
