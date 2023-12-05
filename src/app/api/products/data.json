@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "Sweatshirt 'Never Stop Learning.",
+      "title": "Sweatshirt 'Never Stop Learning",
       "slug": "sweatshirt-never-stop-learning",
       "price": 49.99,
       "image": "/moletom-never-stop-learning.png",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "title": "AI Side Sweatshirt.",
+      "title": "AI Side Sweatshirt",
       "slug": "ai-side-sweatshirt",
       "price": 39.99,
       "image": "/moletom-ai-side.png",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "title": "Java 2023 Sweatshirt.",
+      "title": "Java 2023 Sweatshirt",
       "slug": "java-sweatshirt-2023",
       "price": 49.99,
       "image": "/moletom-java.png",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "title": "AI Sweatshirt for Devs.",
+      "title": "AI Sweatshirt for Devs",
       "slug": "ai-sweatshirt-devs",
       "price": 44.99,
       "image": "/moletom-ia-p-devs.png",

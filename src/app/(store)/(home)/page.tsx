@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import { api } from '@/data/api'
 import { Product } from '@/data/types/product'
+import { Metadata } from 'next'
 
 async function getFeaturedProducts(): Promise<Product[]> {
   try {
@@ -17,6 +18,10 @@ async function getFeaturedProducts(): Promise<Product[]> {
   } catch (error) {
     return Promise.reject(error)
   }
+}
+
+export const metadata: Metadata = {
+  title: 'Home',
 }
 
 export default async function Home() {
