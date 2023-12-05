@@ -7,10 +7,9 @@ import { Product } from '@/data/types/product'
 async function getFeaturedProducts(): Promise<Product[]> {
   try {
     const response = await api('/products/featured', {
-      // next: {
-      //   revalidate: 60 * 60, // 1 hour
-      // },
-      cache: 'no-store',
+      next: {
+        revalidate: 60 * 60, // 1 hour
+      },
     })
     const products = await response.json()
 
@@ -22,8 +21,6 @@ async function getFeaturedProducts(): Promise<Product[]> {
 
 export default async function Home() {
   const [highLightedProduct, ...otherProducts] = await getFeaturedProducts()
-
-  console.log('highLightedProduct', highLightedProduct)
 
   return (
     <div className="grid max-h-[860px] grid-cols-9 grid-rows-6 gap-6">
